@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <mat-toolbar style="background-color: rgba(0, 0, 0, 0.616);">
+      <img src="assets/VAYUZ.png" class="vayuz-img" />
+      <span class="example-spacer btn btn-default"></span>
+      <!-- <button
+    mat-icon-button
+    class="example-icon btn btn-default"
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button> -->
+      <button
+        mat-icon-button
+        class="example-icon btn btn-default"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <!-- <button
+    mat-icon-button
+    class="example-icon btn btn-default"
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>share</mat-icon>
+  </button> -->
+    </mat-toolbar>
+    <div class="row">
+      <mat-card class="details">
+        <mat-card-header> <h5>EDIT BLOG</h5></mat-card-header><br />
+        <mat-card-content>
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <mat-label>Content Title</mat-label>
+              <input matInput placeholder="Ex. Computer" required />
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Content Name</mat-label>
+              <input matInput placeholder="Ex. Software" required />
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Description</mat-label>
+              <textarea
+                matInput
+                placeholder="Ex. A collection of data or instructions"
+                required
+              ></textarea>
+            </mat-form-field>
+            <button class="btn btn-outline-warning">
+              SUBMIT
+            </button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="image">
+        <mat-card-header> <h5>UPLOAD IMAGE</h5></mat-card-header><br />
+        <mat-card-content>
+          <form class="example-form">
+            <button class="btn btn-outline-warning">
+              SUBMIT</button
+            >&nbsp;
+            <button class="btn btn-outline-danger">
+              CANCEL
+            </button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </body>
+</html>
