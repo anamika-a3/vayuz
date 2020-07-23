@@ -31,7 +31,7 @@ body {
 .example-card {
   max-width: 300px;
   position: center;
-  margin-top: 5%;
+
   margin-left: 5%;
   transform: translate(150%, 10%);
   background-color: rgb(255, 255, 255);
@@ -66,16 +66,16 @@ mat-card-header {
   text-align: center;
 }
 mat-card-title {
-  margin-left: 40px;
   text-align: center;
 }
 
-mat-card-subtitle {
+/*mat-card-subtitle {
   margin-left: 40px;
   text-align: center;
-}
+} */
 .submit {
   background-color: rgb(233, 83, 13);
   color: white;
 }
 /* form-field-end */
+
